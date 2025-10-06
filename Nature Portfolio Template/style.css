@@ -1,0 +1,603 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: rgb(225, 225, 225);
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    position: sticky;
+    top: 0;
+    background-color: rgb(225, 225, 225);
+    z-index: 50;
+}
+
+.logo img {
+    width: 50px;
+    height: auto;
+    border-radius: 50%;
+
+}
+
+.text-Portfolio div {
+    font-size: 50px;
+    padding: 1%;
+}
+
+.filter {
+    display: flex;
+    gap: 15px;
+    padding: 1%;
+    align-items: center;
+
+}
+
+.filter ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.list li {
+    background-color: rgb(243, 238, 238);
+    font-weight: lighter;
+    padding: 8px 25px;
+}
+
+.list li:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.line {
+    border: 3px solid rgb(172, 170, 170);
+    margin: 1%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1vw;
+    margin: 1%;
+}
+
+.card {
+    /*border:1px solid black;*/
+    background-color: white
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card-text {
+    padding: 3%;
+}
+
+.card-text p {
+    padding: 4% 0%;
+    line-height: 1.5;
+    opacity: 0.9;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: 0.2s ease-in;
+    background-color: black;
+    color: white;
+}
+
+.number {
+    margin: 4%;
+}
+
+.number ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px
+}
+
+.number li {
+    padding: 5px 8px;
+}
+
+.number li:hover {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    gap: 1.3%;
+    padding: 1%;
+}
+
+.flex img {
+    width: 100%;
+    height: 30vw;
+
+}
+
+.about {
+    padding: 2% 1%;
+}
+
+.about p {
+    padding: 1.5% 0%;
+    line-height: 1.8;
+    opacity: 0.9;
+}
+
+.skills {
+    padding: 1%;
+}
+
+.Photography {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(125, 124, 124);
+}
+
+.Photography-level {
+    width: 95%;
+    height: 30px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.web {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(125, 124, 124);
+}
+
+.web-level {
+    width: 85%;
+    height: 30px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.photoshop {
+    width: 100%;
+    height: 30px;
+    background-color: rgb(125, 124, 124);
+}
+
+.photoshop-level {
+    width: 80%;
+    height: 30px;
+    background-color: rgb(34, 33, 33);
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+.technical-skills p {
+    padding: 1.5% 0%;
+}
+
+.button {
+    padding: 2% 0%;
+
+}
+
+.button button {
+    padding: 10px 20px;
+    background-color: rgb(30, 29, 29);
+    border: none;
+    color: white;
+}
+
+.basic {
+    border: 1px solid rgb(116, 114, 114);
+    text-align: center;
+}
+
+.basic>p {
+    background-color: rgb(40, 39, 39);
+    padding: 30px 10px;
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.basic li {
+    list-style: none;
+    border-bottom: 1px solid gray;
+    padding: 20px 10px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.basic {
+    border: 1px solid rgb(116, 114, 114);
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.pro>p {
+    background-color: rgb(101, 189, 160);
+    padding: 30px 10px;
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.pro li {
+    list-style: none;
+    border-bottom: 1px solid gray;
+    padding: 20px 10px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.pro {
+    border: 1px solid rgb(116, 114, 114);
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.premium>p {
+    background-color: rgb(40, 39, 39);
+    padding: 30px 10px;
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+}
+
+.premium li {
+    list-style: none;
+    border-bottom: 1px solid gray;
+    padding: 20px 10px;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.premium {
+    border: 1px solid rgb(116, 114, 114);
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.per-month {
+    padding: 30px 10px;
+    border-bottom: 1px solid grey;
+    background-color: white;
+}
+
+.per-month p {
+    opacity: 0.8;
+}
+
+.sign {
+    padding: 20px 10px;
+    background-color: rgb(209, 208, 208);
+}
+
+.sign button {
+    padding: 10px 20px;
+    color: white;
+    background-color: rgb(62, 208, 159);
+    border: none;
+}
+
+.pre-flex {
+    display: flex;
+    gap: 10px;
+}
+
+.pre {
+    padding: 2% 1% 5% 1%;
+}
+
+.pre h4 {
+    padding: 2% 0%;
+}
+
+.contact {
+    background-color: rgb(105, 100, 100);
+    padding: 0;
+    margin: 0;
+}
+
+.contact h3 {
+    padding: 2% 1% 1% 1%;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5% 1%;
+}
+
+.email {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(35, 34, 34);
+    color: white;
+}
+
+.email p {
+    text-align: center;
+    padding: 1.5%;
+
+}
+
+.location {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(59, 162, 128);
+    color: white;
+}
+
+.location p {
+    text-align: center;
+    padding: 1.5%;
+}
+
+.no {
+    width: 100%;
+    height: 90px;
+    background-color: rgb(35, 34, 34);
+    color: white
+}
+
+.no p {
+    text-align: center;
+    padding: 1.5%;
+}
+
+.white-line {
+    border: 0.01px solid rgb(255, 255, 255);
+    margin: 1.2%;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2% 1%;
+}
+
+.details input {
+    width: 100%;
+    height: 35px;
+}
+
+.details lable {
+    padding: 1.5% 0% 0% 0%;
+}
+
+.details button {
+    width: 180px;
+    height: 35px;
+    margin-top: 1.5%;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.details button:hover {
+    cursor: pointer;
+    background-color: rgb(16, 15, 15);
+}
+
+.big-footer {
+    background-color: rgb(54, 50, 50);
+    width: 100%;
+    height: 50vh;
+}
+
+.first-part {
+    width: 100%;
+    height: 40vh;
+    padding: 1%;
+}
+
+.first-part p {
+    padding: 3% 0%;
+    line-height:1.8;
+    color: white;
+}
+
+.second-part {
+    width:100%;
+    height: 40vh;
+    padding: 1%;
+}
+
+.third-part {
+    width:100%;
+    height: 50vh;
+    padding: 1%;
+}
+
+.third-part button {
+    padding:1% 2%;
+    background-color: gray;
+    border: none;
+    margin: 2% 1%;
+}
+
+.third-part button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.inner {
+    padding: 2% 1%;
+    display: flex;
+}
+
+.img1,
+.img2 {
+    display: flex;
+    gap:4%;
+    align-items: center;
+}
+
+.img1 p,
+.img2 p {
+    font-size: 20px;
+    line-height:3vw;
+    color: white;
+
+}
+
+.img1 img,
+.img2 img {
+    max-width: 70px;
+    width: 100%;
+    height: auto;
+}
+
+.inner h3 {
+    font-size: 27px;
+    font-weight: 100;
+    color: white;
+    padding: 4% 0%;
+}
+
+.mid-line {
+    border: 1px solid white;
+    width: 90%;
+    margin: 3% 0%;
+}
+.footer{
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+@media screen and (max-width:600px) {
+    .nav {
+        padding: 2%;
+    }
+
+    .text-Portfolio div {
+        font-size: 40px;
+        padding: 2%;
+    }
+
+    .filter {
+        padding: 2%;
+    }
+
+    .line {
+        margin: 2%;
+    }
+
+    .list li:nth-child(3),
+    .list li:nth-child(4) {
+        display: none;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        gap: 3vw;
+        padding: 2%;
+    }
+
+    .number ul {
+        gap: 10px;
+    }
+
+    .number li {
+        padding: 3px 5px;
+    }
+
+    .flex {
+        flex-direction: column;
+        padding: 2%;
+        gap: 0%;
+
+    }
+
+    .flex img {
+        width: 100%;
+        height: auto;
+
+    }
+
+    .technical-skills p {
+        padding: 3% 0%;
+    }
+
+    .button {
+        padding: 4% 0%;
+    }
+
+    .pre-flex {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .contact-me {
+        flex-direction: column;
+        padding: 5% 1%;
+    }
+
+    .details lable {
+        padding: 2% 0% 0% 0%;
+    }
+
+    .details button {
+        margin-top: 3%;
+    }
+    .inner{
+        flex-direction: column;
+        width: 100%;
+        height: 80vh;
+    }
+    .big-footer{
+        width: 100%;
+        height: 100vh;
+    }
+    .inner h3{
+        font-size: 25px;
+        padding:2% 0% 1% 0%;
+    }
+    .first-part p{
+        padding: 2% 0%;
+    }
+    .img1 p,.img2 p{
+        line-height:7vw;
+    }
+    .third-part button{
+          padding: 0.5% 1%;
+          margin: 1% 1%;
+    }
+
+
+}

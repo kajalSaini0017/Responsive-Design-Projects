@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        html{
+            overflow-x: hidden;
+        }
+        body{
+            background-color: blanchedalmond;
+            font-family: sans-serif;
+        }
+        *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        nav{
+            background-color: aqua;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px; 
+            width: 100%;
+        }
+        nav ul{
+             gap: 3vw;
+            list-style: none;
+            display: flex;
+
+        }
+        nav div{
+            font-size:2em;
+
+        }
+        nav ul li{
+            font-size:1.2em ;
+        }
+        nav img{
+            display: none;
+        }
+        .hero{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap:15vw;
+            padding:60px 20px;
+        }
+        .content h1{
+            font-size:clamp(1rem, 5vw, 3rem);
+        }
+        .img img{
+            width: 100%;
+            min-width:50vh;
+            height: auto;
+            border-radius: 50%;
+        }
+        @media screen and (max-width:550px){
+            nav li{
+                display: none;
+            }
+            nav img{
+                display: block;
+            }
+            .hero{
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            .content h1{
+                font-size: 2rem;
+            }
+            .img img{
+                max-width: 300px;
+            }
+
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div>LOGO</div>
+            <ul>
+                <li>home</li>
+                <li>
+                    service
+                </li>
+                <li>about</li>
+                <li>contact</li>
+                <img src="bars (1).svg">
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="content">
+            <h1>WELCOME TO MY WEBSITE</h1>
+        </div>
+        <div class="img">
+            <img src="herofood image.jpg">
+        </div>
+
+    </section>
+</body>
+</html>
