@@ -17,7 +17,7 @@ built using **HTML & CSS**, fully responsive for all devices.
 A beautiful responsive template for catering or food service businesses.
 Designed with **HTML & CSS**, mobile-friendly and easy to customize.
 
-![Gourmet Catering Screenshot](Projects-Screenshot/Gourmet-Catering-Template.jpeg)
+![Gourmet Catering Screenshot](Projects-Screenshot/Gourmet-Catering-Template-Screenshot.jpeg)
 
 ### 3. Nature Portfolio Template
 A nature-inspired responsive portfolio template.
