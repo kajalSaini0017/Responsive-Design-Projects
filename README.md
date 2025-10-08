@@ -11,25 +11,25 @@ These projects adopt smoothly to **desktop, tablet, and mobile screens**.
 A sleek responsive website template for architecture portfolios.
 built using **HTML & CSS**, fully responsive for all devices.
 
-![Architect Template Screenshot](Projects-Screenshot/Architect-Template-Screenshot.jpeg)
+<img src="Projects-Screenshot/Architect-Template-Screenshot.jpeg" alt="Architect Template Screenshot" width="500"/>
 
 ### 2. Gourmet Catering Template
 A beautiful responsive template for catering or food service businesses.
 Designed with **HTML & CSS**, mobile-friendly and easy to customize.
 
-![Gourmet Catering Screenshot](Projects-Screenshot/Gourmet-Catering-Template-Screenshot.jpeg)
+<img src="Projects-Screenshot/Gourmet-Catering-Template-Screenshot.jpeg" alt="Gourmet Catering Screenshot" width="500"/>
 
 ### 3. Nature Portfolio Template
 A nature-inspired responsive portfolio template.
 Create using **HTML & CSS**, optimized for desktops, tablets, and mobiles.
 
-![Nature Portfolio Screenshot](Projects-Screenshot/Nature-Portfolio-Template.jpeg)
+<img src="Projects-Screenshot/Nature-Portfolio-Template.jpeg" alt="Nature Portfolio Screenshot" width="500"/>
 
 ### 4. Responsive Navbar
 A responsive navigation bar with dropdowns and mobile-friendly layout.
 Implemented using **HTML & CSS only**, perfect for any website.
 
-![Responsive Navbar Screenshot](Projects-Screenshot/Responsive-Navbar.jpeg)
+<img src="Projects-Screenshot/Responsive-Navbar.jpeg" alt="Responsive Navbar Screenshot" width="500"/>
 
 ---
 
